@@ -24,4 +24,4 @@ jobs:
         run: flake8 /home/runner/work/Python/Python/Beginner 
 
       - name: Linting the code with black
-        run: black /home/runner/work/Python/Python/Beginner
+        run: black /home/runner/work/Python/Python/Beginner --check
